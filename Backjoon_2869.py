@@ -15,11 +15,10 @@ day = 1
 
 if (A == V):
     print(day)
-
-V = V - A
-
-n = V // day_meter
-if (V % day_meter == 0):
-    print(day + n)
 else:
-    print(day + n + 1)
+    V = V - A
+    n = V // day_meter
+    if (V % day_meter == 0):
+        print(day + n)
+    else:
+        print(day + n + 1)
